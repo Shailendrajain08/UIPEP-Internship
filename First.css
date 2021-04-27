@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    /* text-align: center; */
+    background-color: mediumblue;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo,
+li {
+    align-items: right;
+    display: block;
+    font-size: 20px;
+    color: #b3f2ec;
+    line-height: 60px;
+    width: 100px;
+    list-style: none;
+    display: inline-block;
+}
+
+.li1 {
+    padding-left: 40px;
+}
+
+.li2 {
+    float: right;
+}
+
+.item,
+li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.home {
+    margin-top: 60px;
+    width: 100%;
+    height: 600px;
+}
+
+.headline {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.headline h1 {
+    color: mediumblue;
+    font-family: cursive;
+    font-size: 40pt;
+}
+
+.headline h3 {
+    color: mediumblue;
+    font-family: cursive;
+    font-size: 25pt;
+}
+
+.btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #b3f2ec;
+    color: mediumblue;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    width: 100%;
+}
+
+.serh1 {
+    text-align: center;
+    margin-top: 50px;
+    color: mediumblue;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.ui {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.mean {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.mern {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.flutter {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 20px;
+}
+
+.angular {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    padding-top: 20px;
+}
+
+.react {
+    text-align: center;
+    color: mediumblue;
+    text-decoration: underline;
+    border: 1px solid mediumblue;
+    height: 300px;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    padding-top: 20px;
+}
+
+.aboutmain {
+    box-sizing: border-box;
+}
+
+.about {
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: mediumblue;
+    color: #b3f2ec;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.contain {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: #2ecfbf;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #b3f2ec;
+    background-color: mediumblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.team {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: mediumblue;
+}
+
+.name {
+    color: mediumblue;
+}
+
+.button:hover {
+    background-color: #555;
+}
